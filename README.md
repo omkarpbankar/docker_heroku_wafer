@@ -122,3 +122,10 @@ git push -u origin main
 >HEROKU_EMAIL_ADDRESS
 
 >DOCKER_IMAGE_NAME=<wafercircle3270303>
+
+
+
+## to update the project with CI/CD
+git add .
+git commit - m "update"
+git push origin main

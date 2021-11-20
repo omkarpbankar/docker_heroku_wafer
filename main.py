@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "<h1>Flask app is running</h1>"
+    return "<h1>Flask app is running. I am awesome.</h1>"
 
 port = int(os.getenv("PORT", 5001))
 
