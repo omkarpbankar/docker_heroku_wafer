@@ -128,4 +128,8 @@ git push -u origin main
 ## to update the project with CI/CD
 git add .
 git commit - m "update"
-git push origin main
+git push
+
+
+## To create requirements.txt
+pip freeze > requirements.txt
